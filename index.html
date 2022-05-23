@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+    <title>Game</title>
+</head>
+<body>
+    <div id="container-t-s">
+        <div id="container-title">
+            <h1>ROCK</h1>
+            <h1>PAPER</h1>
+            <h1>SCISSORS</h1>
+        </div>
+        <div id="container-score">
+            <span>Score</span>
+            <h2 id="score">0</h2>
+        </div>
+    </div>
+    <div id="options-container">
+        <div id="line-container">
+            <img src="assets/bg-triangle.svg" id="triangle" alt="Triangulo">
+        </div>
+            <div id="options-flex">
+
+                <div id="paper" class="option p">
+                    <div class="back-gray">
+                        <img src="assets/p.svg" alt="Paper option">
+                    </div>
+                </div>
+                <div id="scissors" class="option s">
+                    <div class="back-gray">
+                        <img src="assets/s.svg" alt="scissors option">
+                    </div>
+                </div>
+                <div id="rock" class="option r">
+                    <div class="back-gray"> 
+                        <img src="assets/r.svg" alt="Rock option">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="options-result">
+            <div id="options-flex">
+                <div id="selector">
+                    <span>You Picked</span>
+                    <div id="user" class="option ">
+                        <div class="back-gray">
+                            <img src="" id="user-image" alt="Paper option">
+                        </div>
+                    </div>
+                </div>
+                <div id="results">
+                    <div id="result-text"></div>
+                    <button id="button-again">PLAY AGAIN</button>    
+                </div>
+                <div  id="selector"> 
+
+                    <span>House Picked</span>
+                    
+                    <div id="comp" class="option ">
+                        <div class="back-gray">
+                            <img src="" id="comp-image" alt="scissors option">
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
